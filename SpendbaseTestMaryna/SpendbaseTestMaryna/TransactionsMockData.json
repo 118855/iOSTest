@@ -1,0 +1,37 @@
+{
+    "transactions": [
+      {
+        "id": "1",
+        "tribeTransactionId": "tx1",
+        "tribeCardId": 1,
+        "amount": "1000",
+        "status": "Completed",
+        "tribeTransactionType": "Load",
+        "schemeId": "scheme1",
+        "merchantName": "Load",
+        "pan": null
+      },
+      {
+        "id": "2",
+        "tribeTransactionId": "tx2",
+        "tribeCardId": 1,
+        "amount": "-500",
+        "status": "DetailsAvailable",
+        "tribeTransactionType": "Card",
+        "schemeId": "scheme2",
+        "merchantName": "Google",
+        "pan": "7544"
+      },
+      {
+        "id": "3",
+        "tribeTransactionId": "tx3",
+        "tribeCardId": 1,
+        "amount": "-1299",
+        "status": "NotCompleted",
+        "tribeTransactionType": "Card",
+        "schemeId": "scheme3",
+        "merchantName": "Google",
+        "pan": "7544"
+      }
+    ]
+}
